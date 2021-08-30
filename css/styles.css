@@ -1,0 +1,41 @@
+:root {
+	--fondo-gris:  gray;
+}
+
+body {
+	font-size: 16px;
+	font-family:  sans-serif;
+	background-color: white;
+	color: black;
+}
+
+.navbar-brand {
+	color: black;
+	text-decoration-line: none;
+	font-size: 25px;
+	padding: 5px;
+	font-family: 'Lobster', cursive;
+
+}
+
+.navbar {
+	height: 100px;
+	background-color: gray;
+
+}
+
+.navbar h1 {
+	color: black;
+}
+
+.col-centrada {
+	float: none;
+	margin: 0 auto;
+}
+
+.jumbotron {
+	background-color: var(--fondo-gris);
+	width: 95%;
+	margin: 0 auto;
+}
+
