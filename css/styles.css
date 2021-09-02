@@ -40,8 +40,13 @@ body {
 .jumbotron {
 	background-color: gray;
 	text-align: justify;
-	padding: 5px;
+	padding-top: 25px;
+	padding-bottom: 15px;
 	
+	}
+
+.jumbotron h2{
+	margin: 0;
 
 }
 
