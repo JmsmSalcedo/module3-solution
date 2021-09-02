@@ -1,41 +1,112 @@
-:root {
-	--fondo-gris:  gray;
-}
+
 
 body {
 	font-size: 16px;
-	font-family:  sans-serif;
+	font-family: sans-serif;
 	background-color: white;
 	color: black;
+
 }
+
 
 .navbar-brand {
-	color: black;
-	text-decoration-line: none;
-	font-size: 25px;
-	padding: 5px;
-	font-family: 'Lobster', cursive;
+  padding-top: 25px;
 
 }
 
-.navbar {
-	height: 100px;
+.navbar-brand h1 { /* Restaurant name */
+  
+  color: black;
+  font-family: 'kaisei HarunoUmi', cursive;
+  text-shadow: 1px 1px 1px black;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+
+#header-nav {
 	background-color: gray;
+	padding: 0;
+	margin: 0;
+	border: 2px solid black;
 
-}
 
-.navbar h1 {
-	color: black;
-}
-
-.col-centrada {
-	float: none;
-	margin: 0 auto;
 }
 
 .jumbotron {
-	background-color: var(--fondo-gris);
-	width: 95%;
-	margin: 0 auto;
+	background-color: gray;
+	text-align: justify;
+	padding: 5px;
+	
+
+}
+
+
+#title-menu {
+	font-family: 'Kaisei HarunoUmi', serif;
+	margin-bottom: 20px;
+}
+	
+
+
+#nav-list a:hover {
+	color: white;
+
+
+}
+
+#nav-list a {
+
+	font-size: 1em;
+	text-align: center;
+	color: black;
+	font-weight: bold;
+
+}
+
+
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+
+	border: 1px solid black;
+
+
+}
+
+
+
+.navbar-header button.navbar-toggle {
+	clear: both;
+	margin-top: -30px;
+
+}
+
+
+
+
+@media (max-width: 768px){
+
+
+
+	#nav-list hr {
+		margin:  0;
+		padding: 0;
+		border-color: black;
+	} 
+	
+	
+	.navbar-default .navbar-collapse {
+		border-color: black;
+
+	}
+
+
+
+
 }
 
